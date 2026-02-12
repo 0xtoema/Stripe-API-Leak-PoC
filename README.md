@@ -111,6 +111,7 @@ Enforce backend-only usage of sk_ keys.
 Proxy all Stripe interactions through authenticated server endpoints.
 Integrate automated secret detection tools in CI pipelines.
 Apply strict environment segregation controls.
+![Redacted Burp Suite Screenshot](leaked_api_key.png.png)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Research Methodology
 
@@ -122,6 +123,7 @@ API-level validation with minimal impact testing
 No production systems were targeted.
 No real financial transactions were executed.
 All sensitive identifiers have been redacted.
+![Redacted Burp Suite Screenshot](stripe_access_validation.png.png)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Closing Note
 
